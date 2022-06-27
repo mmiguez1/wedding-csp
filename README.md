@@ -7,12 +7,12 @@ In this problem, there are nGuests attending the wedding that must be seated at 
 ## The Constraints
 We want to find a mapping of guests to tables such that:
       
--No table has more people at it than nSeats.      
--Every table must have at least Floor(nSeats/2) people at it.      
--Every person must be seated with their group.      
--Everyone in the set Trouble must be seated at different tables.      
+* No table has more people at it than nSeats.      
+* Every table must have at least Floor(nSeats/2) people at it.      
+* Every person must be seated with their group.      
+* Everyone in the set Trouble must be seated at different tables.      
         
 ## Measures of Utility
-In this tutorial, I investigate two measures of utility: the Utilitarian Social Welfare Function (the sum of utilities of all the individuals) and the Egalitarian Social Welfare Function (the utility of the worst off guest). 
+In this tutorial, I investigate two measures of utility: the Utilitarian Social Welfare Function (the sum of utilities of all the individuals) and the Egalitarian Social Welfare Function (the utility of the worst off guest). This solution scores the proposed seating arrangement based on how well it satisfies each function. 
       
 ## To read the tutorial, click here!
