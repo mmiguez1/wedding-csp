@@ -16,9 +16,9 @@ We want to find a mapping of guests to tables such that:
 In this project, I investigate two measures of utility: the Utilitarian Social Welfare Function (the sum of utilities of all the individuals) and the Egalitarian Social Welfare Function (the utility of the worst off guest). This solution scores the proposed seating arrangement based on how well it satisfies each function. 
      
 ## The Solution
-**To capture the output of the solver try:**
+### **To capture the output of the solver try:**
 ```
 mzn-g12cpx wedding-csp.mzn example-data.dzn > solution.out
 ```
       
-### To read a tutorial of this project, click [here!](https://mmiguez1.github.io/wedding-csp/). 
+## To read a tutorial of this project, click [here!](https://mmiguez1.github.io/wedding-csp/)
