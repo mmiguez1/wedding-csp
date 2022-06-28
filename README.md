@@ -14,3 +14,10 @@ We want to find a mapping of guests to tables such that:
         
 ## Measures of Utility
 In this project, I investigate two measures of utility: the Utilitarian Social Welfare Function (the sum of utilities of all the individuals) and the Egalitarian Social Welfare Function (the utility of the worst off guest). This solution scores the proposed seating arrangement based on how well it satisfies each function. 
+
+To read a tutorial of this project, click [here!](). 
+
+To capture the output of the solver try:
+```
+mzn-g12cpx wedding-csp.mzn example-data.dzn > solution.out
+```
