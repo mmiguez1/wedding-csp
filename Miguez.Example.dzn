@@ -1,0 +1,50 @@
+% Wedding Seat Assignment Data File.
+%Evaluation (0 = Utilitarian, 1 = Egalitarian)
+Evaluation = 0;
+
+%Number of Tables
+nTables = 4;
+
+%Number of Seats per Table:
+nSeats = 5;
+
+%Number of Guests:
+nGuests = 20;
+
+nGroups = 3;
+%Groups that Must be seated together
+Groups = [
+		  {11,4},
+          {15,16},
+          {8,9}
+];
+
+%Pref Weight
+PrefWeight = 3;
+%Preference Graph: Row i is the person that Guest i would like to sit with.
+%There must be as many rows as nGuests.
+Pref = [
+		{2,3,4},
+        {1,6,9},
+        {1,4},
+        {3,9},
+        {6},
+        {5},
+        {1,8,9},
+        {7,9},
+        {4},
+        {11,12},
+        {19,1},
+        {13,4},
+        {11,9},
+        {1,14},
+        {3,9},
+        {16},
+        {18},
+        {10,17,9},
+        {7,9},
+        {4}
+];
+        
+%Troublemakers
+Trouble = {2, 3};
